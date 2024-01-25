@@ -1,0 +1,96 @@
+{
+  "nav": {
+    "logo": {
+      "name": "panto",
+      "link": "#!"
+    },
+    "navList": [
+      {
+        "id": "navFurniture",
+        "name": "furniture",
+        "link": "#!",
+        "subNav": "dropdown"
+      },
+      {
+        "id": "navShop",
+        "name": "shop",
+        "link": "#!"
+      },
+      {
+        "id": "navAbout",
+        "name": "about us",
+        "link": "#!"
+      },
+      {
+        "id": "navContact",
+        "name": "contact",
+        "link": "#!"
+      }
+    ],
+    "subNavList": [
+      {
+        "id": "subNavHome",
+        "name": "home",
+        "link": "#!"
+      },
+      {
+        "id": "subNavServices",
+        "name": "services",
+        "link": "#!"
+      },
+      {
+        "id": "subNavProducts",
+        "name": "products",
+        "link": "#!"
+      },
+      {
+        "id": "subNavContacts",
+        "name": "contacts",
+        "link": "#!"
+      }
+    ],
+    "cart": {
+      "name": "cart",
+      "count": 0,
+      "img": "assets/icon/cart.svg",
+      "link": "#!"
+    },
+    "mobNavBtn": {
+      "name": "open navigation",
+      "img": "assets/icon/mobile-nav.svg"
+    }
+  },
+  "content": {
+    "title": "Make your interior more minimalistic & modern",
+    "paragraphs": [
+      {
+        "text": "Turn your room with panto into a lot more minimalist and modern with ease and speed"
+      }
+    ],
+    "search": {
+      "id": "headerSearch",
+      "name": "search",
+      "placeholder": "Search furniture",
+      "img": "assets/icon/search.svg",
+      "value": ""
+    }
+  },
+  "dots": [
+    {
+      "name": "vase",
+      "active": false
+    },
+    {
+      "name": "sofa",
+      "active": false
+    },
+    {
+      "name": "wall",
+      "active": false
+    },
+    {
+      "name": "item",
+      "active": false
+    }
+  ]
+}

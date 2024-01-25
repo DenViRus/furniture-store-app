@@ -1,0 +1,255 @@
+{
+  "title": "Best Selling Product",
+  "tabs": [
+    {
+      "name": "All",
+      "active": true
+    },
+    {
+      "name": "Chairs",
+      "active": false
+    },
+    {
+      "name": "Beds",
+      "active": false
+    },
+    {
+      "name": "Sofas",
+      "active": false
+    },
+    {
+      "name": "Lamps",
+      "active": false
+    }
+  ],
+  "products": {
+    "chairs": [
+      {
+        "id": "chair01sakarm",
+        "category": "chair",
+        "name": "Sakarias Armchair",
+        "price": 392,
+        "img": {
+          "default": "assets/img/chair-01.png",
+          "standard": "assets/img/chair-01@2x.png"
+        },
+        "rating": 5
+      },
+      {
+        "id": "chair02balcha",
+        "category": "chair",
+        "name": "Baltsar Chair",
+        "price": 299,
+        "img": {
+          "default": "assets/img/chair-02.png",
+          "standard": "assets/img/chair-02@2x.png"
+        },
+        "rating": 4
+      },
+      {
+        "id": "chair03anjcha",
+        "category": "chair",
+        "name": "Anjay Chair",
+        "price": 519,
+        "img": {
+          "default": "assets/img/chair-03.png",
+          "standard": "assets/img/chair-03@2x.png"
+        },
+        "rating": 5
+      },
+      {
+        "id": "chair04nyacha",
+        "category": "chair",
+        "name": "Nyantuy Chair",
+        "price": 921,
+        "img": {
+          "default": "assets/img/chair-04.png",
+          "standard": "assets/img/chair-04@2x.png"
+        },
+        "rating": 5
+      },
+      {
+        "id": "chair05offcha",
+        "category": "chair",
+        "name": "Office Chair",
+        "price": 333,
+        "img": {
+          "default": "assets/img/chair-05.png",
+          "standard": "assets/img/chair-05@2x.png"
+        },
+        "rating": 5
+      }
+    ],
+    "beds": [
+      {
+        "id": "bed01pasbed",
+        "category": "bed",
+        "name": "Pastel Bed",
+        "price": 1250,
+        "img": {
+          "default": "assets/img/bed-01.png",
+          "standard": "assets/img/bed-01@2x.png"
+        },
+        "rating": 4
+      },
+      {
+        "id": "bed02whibed",
+        "category": "bed",
+        "name": "White Bed",
+        "price": 1345,
+        "img": {
+          "default": "assets/img/bed-02.png",
+          "standard": "assets/img/bed-02@2x.png"
+        },
+        "rating": 5
+      },
+      {
+        "id": "bed03golelibed",
+        "category": "bed",
+        "name": "Gold Elite Bed",
+        "price": 1585,
+        "img": {
+          "default": "assets/img/bed-03.png",
+          "standard": "assets/img/bed-03@2x.png"
+        },
+        "rating": 4
+      },
+      {
+        "id": "bed04stabed",
+        "category": "bed",
+        "name": "Stander Bed",
+        "price": 1080,
+        "img": {
+          "default": "assets/img/bed-04.png",
+          "standard": "assets/img/bed-04@2x.png"
+        },
+        "rating": 5
+      },
+      {
+        "id": "bed05ligbed",
+        "category": "bed",
+        "name": "Lighted Bed",
+        "price": 940,
+        "img": {
+          "default": "assets/img/bed-05.png",
+          "standard": "assets/img/bed-05@2x.png"
+        },
+        "rating": 4
+      }
+    ],
+    "sofas": [
+      {
+        "id": "sofa01wessof",
+        "category": "sofa",
+        "name": "West Sofa",
+        "price": 980,
+        "img": {
+          "default": "assets/img/sofa-01.png",
+          "standard": "assets/img/sofa-01@2x.png"
+        },
+        "rating": 4
+      },
+      {
+        "id": "sofa02milsof",
+        "category": "sofa",
+        "name": "Mild Sofa",
+        "price": 1100,
+        "img": {
+          "default": "assets/img/sofa-02.png",
+          "standard": "assets/img/sofa-02@2x.png"
+        },
+        "rating": 4
+      },
+      {
+        "id": "sofa03gresof",
+        "category": "sofa",
+        "name": "Grey Sofa",
+        "price": 1730,
+        "img": {
+          "default": "assets/img/sofa-03.png",
+          "standard": "assets/img/sofa-03@2x.png"
+        },
+        "rating": 4
+      },
+      {
+        "id": "sofa04yousof",
+        "category": "sofa",
+        "name": "Young Sofa",
+        "price": 1420,
+        "img": {
+          "default": "assets/img/sofa-04.png",
+          "standard": "assets/img/sofa-04@2x.png"
+        },
+        "rating": 5
+      },
+      {
+        "id": "sofa05morsof",
+        "category": "sofa",
+        "name": "Mordent Sofa",
+        "price": 1720,
+        "img": {
+          "default": "assets/img/sofa-05.png",
+          "standard": "assets/img/sofa-05@2x.png"
+        },
+        "rating": 4
+      }
+    ],
+    "lamps": [
+      {
+        "id": "lamp01blulam",
+        "category": "lamp",
+        "name": "Blue Lamp",
+        "price": 115,
+        "img": {
+          "default": "assets/img/lamp-01.png",
+          "standard": "assets/img/lamp-01@2x.png"
+        },
+        "rating": 5
+      },
+      {
+        "id": "lamp02beilam",
+        "category": "lamp",
+        "name": "Beige Lamp",
+        "price": 211,
+        "img": {
+          "default": "assets/img/lamp-02.png",
+          "standard": "assets/img/lamp-02@2x.png"
+        },
+        "rating": 3
+      },
+      {
+        "id": "lamp03tablam",
+        "category": "lamp",
+        "name": "Table Lamp",
+        "price": 88,
+        "img": {
+          "default": "assets/img/lamp-03.png",
+          "standard": "assets/img/lamp-03@2x.png"
+        },
+        "rating": 3
+      },
+      {
+        "id": "lamp04higlam",
+        "category": "lamp",
+        "name": "Hight Lamp",
+        "price": 95,
+        "img": {
+          "default": "assets/img/lamp-04.png",
+          "standard": "assets/img/lamp-04@2x.png"
+        },
+        "rating": 4
+      },
+      {
+        "id": "lamp05outlam",
+        "category": "lamp",
+        "name": "Outputs Lamp",
+        "price": 105,
+        "img": {
+          "default": "assets/img/lamp-05.png",
+          "standard": "assets/img/lamp-05@2x.png"
+        },
+        "rating": 4
+      }
+    ]
+  }
+}
