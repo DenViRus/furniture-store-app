@@ -1,0 +1,13 @@
+<section class="benefits">
+  <div class="container">
+    <div class="benefits__grid">
+      <div class="benefits__title">
+        <h2 class="title-2">{{ benefitsData?.title }}</h2>
+      </div>
+
+      @for (benefitData of benefitsData?.benefits; track $index) {
+      <app-benefit [benefitData]="benefitData"></app-benefit>
+      }
+    </div>
+  </div>
+</section>

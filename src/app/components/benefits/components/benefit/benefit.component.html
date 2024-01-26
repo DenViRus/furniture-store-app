@@ -1,0 +1,7 @@
+<div class="benefit">
+  <h3 class="benefit__title">{{ benefitData?.title }}</h3>
+  @for (paragraph of benefitData?.paragraphs; track $index) {
+  <p class="benefit__text">{{ paragraph.text }}</p>
+  }
+  <a class="read-more" href="#!">More Info</a>
+</div>
