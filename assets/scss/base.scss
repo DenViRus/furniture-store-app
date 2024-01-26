@@ -1,0 +1,52 @@
+html,
+body {
+  font-family: var(--font-main);
+  color: var(--text-color);
+}
+
+.container {
+  max-width: 1310px;
+  padding: 0 15px;
+  margin: 0 auto;
+
+  &--small {
+    max-width: 1094px;
+  }
+}
+
+.none {
+  display: none !important;
+}
+
+.title-2 {
+  font-weight: 700;
+  font-size: clamp(32px, 1.702rem + 1.49vw, 42px);
+}
+
+.logo {
+  color: var(--header-text-color) !important;
+  font-weight: 700;
+  font-size: clamp(18px, 0.946rem + 0.89vw, 28px);
+  letter-spacing: 0.28px;
+  text-transform: capitalize;
+}
+
+.read-more {
+  display: inline-flex;
+  gap: 10px;
+  align-items: center;
+
+  color: var(--accent);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.85;
+
+  &::after {
+    content: url("./../icon/arrow-right.svg");
+    height: 24px;
+  }
+
+  &--large {
+    font-size: 18px;
+  }
+}

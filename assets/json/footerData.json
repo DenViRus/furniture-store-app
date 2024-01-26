@@ -1,0 +1,86 @@
+{
+  "desc": {
+    "paragraphs": [
+      {
+        "text": "The advantage of hiring a workspace with us is that givees you comfortable service and all-around facilities."
+      },
+      {
+        "text": "You can get a workspace of the highst quality at an affordable price and still enjoy the facilities that are oly here."
+      }
+    ]
+  },
+  "navigation": [
+    {
+      "id": "ftrnavserviceslist",
+      "title": "Services",
+      "group": "services",
+      "navList": [
+        {
+          "id": "serviceslistemail",
+          "name": "Email",
+          "link": "#!"
+        },
+        {
+          "id": "serviceslistmarketing",
+          "name": "Marketing",
+          "link": "#!"
+        },
+        {
+          "id": "serviceslistcompain",
+          "name": "Campaigns",
+          "link": "#!"
+        },
+        {
+          "id": "serviceslistbranding",
+          "name": "Branding",
+          "link": "#!"
+        }
+      ]
+    },
+    {
+      "id": "ftrnavfurniturelist",
+      "title": "Furniture",
+      "group": "furniture",
+      "navList": [
+        {
+          "id": "furniturelistall",
+          "name": "All",
+          "link": "#!"
+        },
+        {
+          "id": "furniturelistchairs",
+          "name": "Chairs",
+          "link": "#!"
+        },
+        {
+          "id": "furniturelistbeds",
+          "name": "Beds",
+          "link": "#!"
+        },
+        {
+          "id": "furniturelistsofas",
+          "name": "Sofas",
+          "link": "#!"
+        },
+        {
+          "id": "furniturelistlamps",
+          "name": "Lamps",
+          "link": "#!"
+        }
+      ]
+    }
+  ],
+  "row": {
+    "copyright": "Copyright © 2024.",
+    "links": [
+      {
+        "name": "Terms & Conditions",
+        "link": "#!"
+      },
+      {
+        "name": "Privacy Policy",
+        "link": "#!"
+      }
+    ]
+  }
+}
