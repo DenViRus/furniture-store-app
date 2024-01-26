@@ -1,0 +1,7 @@
+<button
+  [ngClass]="{ 'tab-controls__btn--active': productsTab?.active }"
+  (click)="onToggleTab()"
+  class="tab-controls__btn"
+>
+  {{ productsTab?.name }}
+</button>

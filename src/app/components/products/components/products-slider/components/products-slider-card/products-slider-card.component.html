@@ -1,0 +1,40 @@
+<article [attr.data-tab-value]="product?.category" class="card swiper-slide">
+  <a href="#product-page" class="card__link"> </a>
+  <div class="card__photo">
+    <img
+      src="{{ product?.img?.default }}"
+      srcset="{{product?.img?.default}} 1x, {{product?.img?.standard}} 2x"
+      alt="image {{ product?.name }}"
+      class="card__img"
+    />
+  </div>
+
+  <div class="card__desc">
+    <a href="#category" class="card__category">{{ product?.category }}</a>
+    <h3 class="card__title">{{ product?.name }}</h3>
+
+    <div class="card__rating">
+      <img
+        src="assets/icon/star.svg"
+        alt=""
+        *ngFor="let star of [].constructor(product?.rating); let i = index"
+      />
+      <img
+        src="assets/icon/star-off.svg"
+        alt=""
+        *ngFor="
+          let star of [].constructor(5 - (product?.rating ?? 0));
+          let i = index
+        "
+      />
+    </div>
+
+    <div class="card__footer">
+      <div class="card__price" data-value="$">{{ product?.price }}</div>
+      <button class="card__btn">
+        Add to cart
+        <img src="assets/icon/plus.svg" alt="Add to cart" />
+      </button>
+    </div>
+  </div>
+</article>

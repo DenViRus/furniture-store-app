@@ -1,8 +1,8 @@
 import { Injectable } from '@angular/core';
 import { Actions, createEffect, ofType } from '@ngrx/effects';
 import { map, switchMap } from 'rxjs/operators';
+import { HeaderDataService } from 'src/app/components/header/services/header-data.service';
 
-import { HeaderDataService } from '../../components/header/services/header-data.service';
 import { HeaderDataActions } from '../actions/header-data.action';
 
 @Injectable()

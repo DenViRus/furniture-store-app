@@ -1,0 +1,34 @@
+<div class="products__slider">
+  <div class="slider">
+    <div class="swiper">
+      <div
+        class="swiper-wrapper"
+        appProductsSliderUi
+        [sliderMove]="sliderMoveParam"
+      >
+        @for (product of products.slice(activeSlideIndex, activeSlideIndex +
+        maxVisibleSlides); track $index) {
+        <app-products-slider-card
+          [product]="product"
+        ></app-products-slider-card>
+        }
+      </div>
+    </div>
+
+    <button
+      id="sliderPrev"
+      class="slider__btn slider__btn--prev"
+      (click)="moveToPrevSlide(moveName.Left)"
+    >
+      <img src="assets/icon/slider-left.svg" alt="Previous" />
+    </button>
+
+    <button
+      id="sliderNext"
+      class="slider__btn slider__btn--next"
+      (click)="moveToNextSlide(moveName.Right)"
+    >
+      <img src="assets/icon/slider-right.svg" alt="Next" />
+    </button>
+  </div>
+</div>

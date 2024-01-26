@@ -1,0 +1,7 @@
+<div class="footer__desc">
+  <app-header-nav-logo></app-header-nav-logo>
+
+  @for (paragraph of descData?.paragraphs; track $index) {
+  <p>{{ paragraph.text }}</p>
+  }
+</div>

@@ -1,0 +1,88 @@
+:host {
+  width: 100%;
+  display: block;
+
+  .products__slider {
+    margin-bottom: clamp(30px, 0.982rem + 4.46vw, 60px);
+
+    @media (max-width: 1400px) {
+      padding: 0 40px;
+    }
+
+    @media (max-width: 629px) {
+      padding: 0 20px;
+    }
+
+    .slider {
+      position: relative;
+
+      .swiper {
+        .swiper-wrapper {
+          display: flex;
+          gap: 20px;
+          animation-duration: 0.2s;
+          justify-content: space-around;
+
+          &.slideLeft {
+            animation-name: slideLeft;
+          }
+
+          &.slideRight {
+            animation-name: slideRight;
+          }
+        }
+      }
+
+      .slider__btn {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: rgb(255, 255, 255, 0.5);
+        box-shadow: 0px 7.03125px 19.53125px 0px rgba(0, 0, 0, 0.06);
+        transition: background-color 0.1s ease-in;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &:hover {
+          background-color: rgb(255, 255, 255);
+        }
+      }
+
+      .slider__btn--prev {
+        position: absolute;
+        z-index: 1;
+        left: 0;
+        top: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      .slider__btn--next {
+        position: absolute;
+        z-index: 1;
+        right: 0;
+        top: 50%;
+        transform: translate(50%, -50%);
+      }
+    }
+  }
+}
+
+@keyframes slideLeft {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-20%);
+  }
+}
+
+@keyframes slideRight {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(20%);
+  }
+}

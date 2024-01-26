@@ -1,0 +1,14 @@
+<footer class="footer">
+  <div class="container container--small">
+    <div class="footer__grid">
+      <app-footer-desc></app-footer-desc>
+      @for (navData of navigationData; track $index) {
+      <app-footer-nav
+        [navData]="navData"
+        class="footer__navigation--{{ navData.group }}"
+      ></app-footer-nav>
+      }
+    </div>
+    <app-footer-row></app-footer-row>
+  </div>
+</footer>

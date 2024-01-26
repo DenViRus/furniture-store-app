@@ -1,8 +1,8 @@
 import { Injectable } from '@angular/core';
 import { Actions, createEffect, ofType } from '@ngrx/effects';
 import { map, switchMap } from 'rxjs/operators';
+import { FooterDataService } from 'src/app/components/footer/services/footer-data.service';
 
-import { FooterDataService } from '../../components/footer/services/footer-data.service';
 import { FooterDataActions } from '../actions/footer-data.action';
 
 @Injectable()

@@ -1,0 +1,38 @@
+:host {
+  .footer__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @media (max-width: 629px) {
+      flex-direction: column-reverse;
+      align-items: flex-start;
+      gap: 20px;
+    }
+
+    .footer__copyright {
+      font-family: var(--font-footer-accent);
+      font-size: 15px;
+      letter-spacing: -0.205px;
+    }
+
+    .footer__links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 40px;
+
+      @media (max-width: 629px) {
+        gap: 20px;
+      }
+
+      a {
+        color: var(--footer-text-color);
+        transition: opacity 0.1s ease-in;
+
+        &:hover {
+          opacity: 0.6;
+        }
+      }
+    }
+  }
+}

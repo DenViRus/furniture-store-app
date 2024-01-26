@@ -1,0 +1,14 @@
+:host {
+
+   @media (max-width: 629px) {
+      grid-column: 1 / 3;
+    }
+    
+  .footer__desc {
+    p + p {
+      margin-top: 1em;
+    }
+
+
+  }
+}

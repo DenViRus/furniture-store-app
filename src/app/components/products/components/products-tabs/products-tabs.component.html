@@ -1,0 +1,7 @@
+<div class="products__tabs">
+  <div class="tab-controls">
+    @for (productsTab of productsTabs; track $index) {
+    <app-products-tab [productsTab]="productsTab"></app-products-tab>
+    }
+  </div>
+</div>

@@ -1,0 +1,17 @@
+:host {
+  .footer__nav {
+    .footer__nav-title {
+      margin-bottom: 20px;
+
+      color: var(--footer-accent);
+      font-family: var(--font-footer-accent);
+      font-size: 17px;
+      letter-spacing: -0.232px;
+    }
+
+    .footer__list {
+      display: grid;
+      gap: 16px;
+    }
+  }
+}

@@ -1,0 +1,17 @@
+:host {
+  width: 100%;
+  display: block;
+
+  .products__tabs {
+    margin-bottom: 80px;
+    text-align: center;
+
+    .tab-controls {
+      display: inline-flex;
+      padding: 6px;
+      align-items: center;
+      border-radius: 44px;
+      background: rgb(238, 238, 238);
+    }
+  }
+}

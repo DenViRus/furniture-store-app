@@ -1,8 +1,8 @@
 import { Injectable } from '@angular/core';
 import { Actions, createEffect, ofType } from '@ngrx/effects';
 import { map, switchMap } from 'rxjs/operators';
+import { BenefitsDataService } from 'src/app/components/benefits/services/benefits-data.service';
 
-import { BenefitsDataService } from '../../components/benefits/services/benefits-data.service';
 import { BenefitsDataActions } from '../actions/benefits-data.action';
 
 @Injectable()

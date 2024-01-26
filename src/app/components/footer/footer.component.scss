@@ -1,0 +1,37 @@
+:host {
+  width: 100%;
+  display: block;
+
+  .footer {
+    padding: clamp(60px, 2.024rem + 8.63vw, 118px) 0 56px;
+    background-color: var(--footer-bg);
+
+    color: var(--footer-text-color);
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 1.6;
+
+    .footer__grid {
+      margin-bottom: clamp(60px, 2.024rem + 8.63vw, 118px);
+      display: grid;
+      grid-template-columns: 3fr 1fr 2fr 2fr 2fr;
+      gap: 60px 20px;
+
+      .footer__navigation--services {
+        grid-column-start: 3;
+
+        @media (max-width: 629px) {
+          grid-column-start: auto;
+        }
+      }
+
+      @media (max-width: 992px) {
+        grid-template-columns: 4fr 1fr 3fr 3fr;
+      }
+
+      @media (max-width: 629px) {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+  }
+}
