@@ -2,7 +2,7 @@ import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 
-import { TestComponentComponent } from './components/test-component/test-component.component';
+import { HeaderComponent } from './components/header/header.component';
 
 @Component({
   selector: 'app-root',
@@ -10,7 +10,7 @@ import { TestComponentComponent } from './components/test-component/test-compone
   imports: [
     CommonModule,
     RouterOutlet,
-    TestComponentComponent
+    HeaderComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'

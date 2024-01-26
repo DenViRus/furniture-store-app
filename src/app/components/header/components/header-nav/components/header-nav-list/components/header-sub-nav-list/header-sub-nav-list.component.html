@@ -1,0 +1,9 @@
+<div class="nav-list__sub-nav">
+  <ul class="sub-nav">
+    @for (subNavItem of subNavList; track $index) {
+    <app-header-sub-nav-list-item
+      [subNavItem]="subNavItem"
+    ></app-header-sub-nav-list-item>
+    }
+  </ul>
+</div>

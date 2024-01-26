@@ -1,0 +1,14 @@
+:host {
+  .nav-list__sub-nav {
+    .sub-nav {
+      display: grid;
+      gap: 16px;
+      padding: 20px;
+      border-radius: 16px;
+      background-color: var(--footer-bg);
+
+      color: var(--footer-text-color);
+      font-size: 16px;
+    }
+  }
+}

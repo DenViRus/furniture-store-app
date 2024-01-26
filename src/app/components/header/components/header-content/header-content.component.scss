@@ -1,0 +1,29 @@
+:host {
+  width: 100%;
+  display: block;
+
+  .header__content {
+    text-align: center;
+
+    .header__title {
+      margin-bottom: 14px;
+
+      font-weight: 700;
+      font-size: clamp(28px, 0.821rem + 4.64vw, 80px);
+
+      text-wrap: balance;
+      line-height: 130%;
+      letter-spacing: -0.8px;
+      text-transform: capitalize;
+    }
+
+    .header__paragraph {
+      margin: 0 auto;
+      max-width: 606px;
+      opacity: 0.8;
+      font-size: clamp(16px, 0.857rem + 0.71vw, 24px);
+      line-height: 160%;
+      text-wrap: balance;
+    }
+  }
+}

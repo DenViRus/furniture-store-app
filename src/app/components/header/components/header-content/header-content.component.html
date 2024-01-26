@@ -1,0 +1,8 @@
+<div class="header__content">
+  <h1 class="header__title">{{ headerContent?.title }}</h1>
+
+  @for(paragraph of headerContent?.paragraphs; track $index) {
+  <p class="header__paragraph">{{ paragraph.text }}</p>
+  }
+  <app-header-content-search></app-header-content-search>
+</div>

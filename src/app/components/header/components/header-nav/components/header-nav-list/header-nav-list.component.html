@@ -1,0 +1,5 @@
+<ul class="nav-list">
+  @for (navItem of navList; track $index) {
+  <app-header-nav-list-item [navItem]="navItem"></app-header-nav-list-item>
+  }
+</ul>

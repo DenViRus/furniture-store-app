@@ -1,0 +1,15 @@
+<div class="header__search">
+  <form action="" class="search-form">
+    <input
+      placeholder="{{ contentSearch?.placeholder }}"
+      type="text"
+      class="search-form__input"
+      autocomplete="off"
+      name="search"
+      [(ngModel)]="searchVal"
+    />
+    <button class="search-form__btn" (click)="onSearch()">
+      <img src="{{ contentSearch?.img }}" alt="{{ contentSearch?.name }}" />
+    </button>
+  </form>
+</div>

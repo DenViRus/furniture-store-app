@@ -1,0 +1,11 @@
+<li class="nav-list__item">
+  <a
+    href="{{ navItem?.link }}"
+    class="nav-list__link"
+    [ngClass]="{ 'nav-list__link--dropdown': navItem?.subNav }"
+    >{{ navItem?.name }}</a
+  >
+  @if (navItem?.subNav) {
+  <app-header-sub-nav-list class="sub-nav-template"></app-header-sub-nav-list>
+  }
+</li>

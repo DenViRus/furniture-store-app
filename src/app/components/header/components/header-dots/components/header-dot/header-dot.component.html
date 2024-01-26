@@ -1,0 +1,25 @@
+<div class="header__dot header__dot--{{ headerDot?.name }}">
+  <button class="info-dot" (click)="onToggleDot()">
+    <div class="info-dot__circle"></div>
+    <div class="info-dot__radius"></div>
+  </button>
+
+  @if (headerDot?.active) {
+  <div class="info-hint">
+    <label>
+      <input type="radio" name="item-color" class="info-hint__radio" />
+      <div class="info-hint__radio-fake info-hint__radio-fake--orange"></div>
+    </label>
+
+    <label>
+      <input type="radio" name="item-color" class="info-hint__radio" />
+      <div class="info-hint__radio-fake info-hint__radio-fake--biruza"></div>
+    </label>
+
+    <label>
+      <input type="radio" name="item-color" class="info-hint__radio" />
+      <div class="info-hint__radio-fake info-hint__radio-fake--gray"></div>
+    </label>
+  </div>
+  }
+</div>
